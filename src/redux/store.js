@@ -20,4 +20,4 @@ const store = configureStore({
 
 export default store;
 
-export const server = 'https://learnx-backend.onrender.com';
+export const server = 'https://learnx-backend.onrender.com/api/v1';
