@@ -13,7 +13,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { buySubscription } from '../../redux/actions/user';
 import { server } from '../../redux/store';
 import toast from 'react-hot-toast';
-import logo from '../../assets/images/logo.png';
+//import logo from '../../assets/images/logo.png';
 
 const Subscribe = ({ user }) => {
   const dispatch = useDispatch();
@@ -48,7 +48,7 @@ const Subscribe = ({ user }) => {
           key,
           name: 'Learnx',
           description: 'Get access to all premium content',
-          image: logo,
+         
           subscription_id: subscriptionId,
           callback_url: `${server}/paymentverification`,
           prefill: {
