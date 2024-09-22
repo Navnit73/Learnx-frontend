@@ -46,7 +46,7 @@ const Subscribe = ({ user }) => {
       const openPopUp = () => {
         const options = {
           key,
-          name: 'CourseBundler',
+          name: 'Learnx',
           description: 'Get access to all premium content',
           image: logo,
           subscription_id: subscriptionId,
@@ -57,7 +57,7 @@ const Subscribe = ({ user }) => {
             contact: '',
           },
           notes: {
-            address: '6 pack programmer at youtube',
+            address: 'Navnit rai',
           },
           theme: {
             color: '#FFC800',
